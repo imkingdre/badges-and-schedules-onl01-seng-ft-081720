@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   end
   return new_array
 end
-def assign_rooms(speakers)
+def assign_rooms(arr)
   room = 0
   speakers.collect do |name|
     room += 1
