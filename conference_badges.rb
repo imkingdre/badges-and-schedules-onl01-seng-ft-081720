@@ -1,7 +1,8 @@
 def badge_maker(name)
   "Hello my name is #{name}"
 end
-def batch_badge_creator(speakers)
+def batch_badge_creator(arr)
+  
   speakers.collect do |name|
     badge_maker(name)
   end
