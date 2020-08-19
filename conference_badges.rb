@@ -17,11 +17,12 @@ def assign_rooms(arr)
   end
   return new_array
 end
-def printer(speakers)
-  batch_badge_creator(speakers).each do |value|
-    puts value
+def printer(arr)
+  batch_badge_creator(arr).each do |badge|
+    puts badge
   end
-  assign_rooms(speakers).each do |value|
-    puts value
+
+  assign_rooms(arr).each do |assignment|
+    puts assignment
   end
-end
+end 
