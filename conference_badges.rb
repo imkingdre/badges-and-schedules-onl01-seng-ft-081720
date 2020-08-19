@@ -6,6 +6,7 @@ def batch_badge_creator(arr)
   arr.each do |name|
     new_array.push("Hello, my name is #{name}. ")
   end
+  return 
 end
 def assign_rooms(speakers)
   room = 0
